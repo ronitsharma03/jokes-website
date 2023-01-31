@@ -1,0 +1,97 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    display: flex;
+    background-color: rgb(100, 100, 255);
+}
+
+nav li{
+    list-style: none;
+    padding: 15px 25px;
+    color: white;
+    font-size: 1.1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+}
+
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3.5rem;
+    text-align: center;
+    margin-bottom: 0px;
+}
+.starting-point{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    color: grey;
+}
+.joke-count{
+    color: black;
+    font-size: 3rem;
+    font-family:'PT sans', sans-serif;
+    text-align: center;
+    font-weight: bolder;
+}
+.see-jokes{
+    width: 60%;
+    background-color: whitesmoke;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    border: 3px solid #444;
+    padding: 30px;
+}
+.footer{
+    color: white;
+    background-color: rgb(100, 100, 255);
+    padding: 100px 15%;
+    margin-top: 150px;
+    display: flex;
+    font-family:'PT sans', sans-serif;
+
+}
+.footer div{
+    text-align: center;
+}
+.col-2{
+    flex-grow: 2;
+}
+.footer div h3{
+    font-size: 2rem;
+    font-weight: 300;
+    margin-bottom: 10px;
+    letter-spacing: 1px;
+}
+.col-1 a{
+    display: block;
+    color: white;
+    text-decoration: none;
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+}
+form input{
+    width: 350px;
+    height: 40px;
+    border-radius: 4px;
+    margin-top: 15px;
+    margin-bottom: 30px;
+    outline: none;
+}
+form button{
+    background: transparent;
+    border: 1px solid #fff;
+    color: white;
+    border-radius: 40px;
+    padding: 10px 30px;
+    font-size: 15px;
+    cursor: pointer;
+}
+.col-3 a{
+    color: white;
+    margin: 10px 10px;
+}
